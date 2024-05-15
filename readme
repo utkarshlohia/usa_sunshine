@@ -1,0 +1,45 @@
+The visualization presents a decade-long perspective on sunshine minutes across 
+the United States from 2010 to 2020. It utilizes a map with markers whose sizes 
+dynamically represent the minutes of sunshine observed in various locations. 
+This approach was chosen for intuitiveness of size comparison and the simplicity
+yet comprehensive complation of maps.
+
+To facilitate easy comparison, a slider for months was included, enabling users 
+to visualize averge minutes of sunshine month-by-month. Additionally, a dropdown
+menu allows users to select the specific year they wish to explore, ensuring a 
+focused examination of data without overwhelming the viewer.The choice of a solid 
+grey map background avoids emphasizing specific cities or states, allowing the 
+sun markers to bring the attention to areas on the map. The font colors are shades 
+of grey with blue undertones to complement the dark blue background of the map 
+container. This background color provides contrast between the markers outside 
+flowing of map edges and the background, and aiding viewers in understanding 
+regional variations by conserving state limits.The size of the markers ranges from 
+a minimum radius of 2 to the observed maximum minutes of sunshine, divided by 50. 
+This scaling maintains proportional differences while preventing markers from 
+becoming disproportionately large and overwhelming the visualization. 
+Tooltips provide additional information, displaying the minutes of sunshine 
+when hovering over a marker.
+
+Originally, a calendar interface allowed users to select any date from 2010-01-01 
+to 2020-12-31. However, this was awkward for analysis. Users would have to select 
+each day on the dropdown calendar to make comparisons. By summarizing 
+the data to months and employing a slider alongside date text, users can swiftly 
+compare sunshine minutes on a broader scale. Adjustments were made to optimize 
+user experience, including moving the date text below the slider to prevent 
+shifting object positions during interaction.
+
+In this collaborative project, our team worked synchronously, alternating between 
+joint coding sessions and individual tasks. Whether gathered in person or connected 
+via Zoom, our workflow involved continuous communication and shared decision-making.
+On a high level, Rishaant Jain took charge of data cleaning and preparation, 
+ensuring that the dataset was formatted appropriately for visualization. 
+Utkarsh Lohia focused on implementing the marker functionality, fine-tuning 
+their appearance and behavior on the map. Laura Diaz Rodriguez spearheaded the 
+base visualization and design, establishing the overall aesthetic and layout.
+
+Despite our focus, collaboration was central to our process. We provided feedback 
+and guidance to each other, ensuring that all aspects of the project met our 
+collective standards. Debugging and refining each component became a team effort, 
+with everyone contributing. One particularly challenging aspect was the 
+implementation of the markers, which required careful attention to detail. 
+In total, we dedicated approximately 10 hours to this project.
