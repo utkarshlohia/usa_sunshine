@@ -175,7 +175,7 @@
                     .attr('x', projection([d.longitude, d.latitude])[0] + 10)
                     .attr('y', projection([d.longitude, d.latitude])[1] - 10)
                     .attr('fill', 'black')
-                    .text(`Sunshine: ${d3.format('.2f')(d.sunshine_total_min)} mins`);
+                    .text(`Average Sunshine: ${d3.format('.2f')(d.sunshine_total_min)} mins`);
             })
             .on('mouseout', function(event, d) {
                 d3.select(this)
